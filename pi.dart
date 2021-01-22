@@ -1,8 +1,5 @@
 // > POST /api/dartservices/v2/compile HTTP/1.1
 // > Host: v1.api.dartpad.dev
-// > User-Agent: curl/7.64.1
-// > Accept: */*
-// > Connection: keep-alive
 
 import 'dart:async';
 import 'dart:math' show Random;
