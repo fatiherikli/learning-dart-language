@@ -1,6 +1,3 @@
-// > POST /api/dartservices/v2/compile HTTP/1.1
-// > Host: v1.api.dartpad.dev
-
 import 'dart:async';
 import 'dart:math' show Random;
 
