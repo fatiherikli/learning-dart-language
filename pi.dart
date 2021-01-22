@@ -1,5 +1,8 @@
-// HTTP POST JSON
-// https://v1.api.dartpad.dev/api/dartservices/v2/compile 
+// > POST /api/dartservices/v2/compile HTTP/1.1
+// > Host: v1.api.dartpad.dev
+// > User-Agent: curl/7.64.1
+// > Accept: */*
+// > Connection: keep-alive
 
 import 'dart:async';
 import 'dart:math' show Random;
@@ -41,3 +44,5 @@ class Point {
   const Point(this.x, this.y);
   bool get isInsideUnitCircle => x * x + y * y <= 1;
 }
+
+// < STDOUT
