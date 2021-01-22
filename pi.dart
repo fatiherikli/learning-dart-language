@@ -6,7 +6,7 @@ import 'dart:math' show Random;
 
 main() async {
   print('Compute PI using https://en.wikipedia.org/wiki/Monte_Carlo_method');
-  await for (var estimate in computePi().take(100)) {
+  await for (var estimate in computePi().take(5)) {
     print(estimate);
   }
 }
